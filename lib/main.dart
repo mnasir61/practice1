@@ -11,6 +11,7 @@ import 'generated/sign_up_page.dart';
 import 'home_page.dart';
 import 'login_page.dart';
 import 'login_page2.dart';
+import 'profile_page.dart';
 import 'tiktok_stack.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget{
 return  MaterialApp(
     debugShowCheckedModeBanner: false,
     title: ("Practice App"),
-    home:TikTokStack(),
+    home:ProfilePage(),
 );
   }
 
